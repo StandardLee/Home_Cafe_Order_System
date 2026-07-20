@@ -1,16 +1,75 @@
-# React + Vite
+# Home cafe Order System
+A simple web-based ordering system for a home cafe.  
+Customers can browse menu items, customize drinks, and place orders through a mobile-friendly interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
+[![Live Site](https://img.shields.io/badge/Live%20Site-Open-2ea44f?style=for-the-badge)](https://cafe.standardlee.info)
 
-Currently, two official plugins are available:
+- Website: [https:cafe.standardlee.info](https://cafe.standardlee.info)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- React
+- Vite
+- CSS
+- Netlify
+- Supa base
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- Browse menu items by category and add selected drinks to the cart
+- Customize each item with decaf and Ice/Hot options before ordering
+- Enter a customer name and proceed to the order completion page
+- Access the Admin page by entering a custom password defined in the code
+- View all current pending orders from the Admin page
+- Mark orders as completed from the Admin page and send a completion alert back to the order page
 
-## Expanding the ESLint configuration
+## Environment Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project uses Supabase as the database backend.
+
+To connect the app to the database, create a local `.env` file and add your Supabase project credentials there.  
+After the environment variables are configured, the app can connect to the database and read/write order data.
+
+Example:
+
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local development server shown in the terminal.
+
+## Build
+
+```bash
+npm run build
+```
+
+Production files will be generated in the `dist/` folder.
+
+## Project Structure
+
+```bash
+src/
+  App.jsx
+  App.css
+  Admin.jsx
+  Admin.css
+  Order.jsx
+  Order.css
+  main.jsx
+  index.css
+public/
+index.html
+vite.config.js
+```
+
+
+
