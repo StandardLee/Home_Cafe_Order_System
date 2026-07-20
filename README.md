@@ -13,7 +13,7 @@ Customers can browse menu items, customize drinks, and place orders through a mo
 - Vite
 - CSS
 - Netlify
-- Supa base
+- Supabase
 
 ## Features
 - Browse menu items by category and add selected drinks to the cart
