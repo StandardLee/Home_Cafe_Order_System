@@ -1,0 +1,87 @@
+.admin-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+}
+
+.admin-login-card {
+  max-width: 360px;
+  margin: 80px auto;
+  padding: 24px;
+  border-radius: 16px;
+  background: #fffaf4;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.admin-input {
+  width: 100%;
+  margin: 12px 0 16px;
+  padding: 12px;
+  border: 1px solid #d8cfc4;
+  border-radius: 10px;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  background: #6f4e37;
+  color: white;
+  cursor: pointer;
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.admin-order-list {
+  display: grid;
+  gap: 16px;
+}
+
+.admin-order-card {
+  padding: 18px;
+  border-radius: 16px;
+  background: #fffaf4;
+  border: 1px solid #e6dbcf;
+}
+
+.admin-order-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.admin-items {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #eee2d6;
+}
+
+.admin-item-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.complete-btn {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  background: #6f4e37;
+  color: white;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  background: #6f4e37;
+  color: white;
+  cursor: pointer;
+}
