@@ -30,6 +30,8 @@ This project uses Supabase as the database backend.
 To connect the app to the database, create a local `.env` file and add your Supabase project credentials there.  
 After the environment variables are configured, the app can connect to the database and read/write order data.
 
+The application uses an orders table with the columns id, customer_name, total_count, status, and created_at, and an order_item table with the columns id, order_id, menu_name, temp, quantity, and decaf. The order_item.order_id column is a foreign key that references the primary key orders.id.
+
 Example:
 
 ```env
