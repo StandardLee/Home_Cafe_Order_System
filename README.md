@@ -5,7 +5,7 @@ Customers can browse menu items, customize drinks, and place orders through a mo
 ## Live Demo
 [![Live Site](https://img.shields.io/badge/Live%20Site-Open-2ea44f?style=for-the-badge)](https://cafe-demo.standardlee.info)
 
-- Website: [https:cafe.standardlee.info](https://cafe-demo.standardlee.info)
+- Website: [https:cafe-demo.standardlee.info](https://cafe-demo.standardlee.info)
 - admin page is available with password "PASSWORD"
 ## Tech Stack
 
