@@ -12,7 +12,7 @@ Customers can browse menu items, customize drinks, and place orders through a mo
 - React
 - Vite
 - CSS
-- Netlify
+- Firebase
 - Supabase
 
 ## Features
